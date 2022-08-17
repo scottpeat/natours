@@ -718,6 +718,8 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 .popup__content {
   position: absolute;
@@ -824,8 +826,8 @@ body {
 }
 @media (max-width: 56.25em) {
   .navigation__background {
-    top: 3.5rem;
-    right: 3.5rem;
+    top: 5rem;
+    right: 5rem;
   }
 }
 @media (max-width: 37.5em) {
